@@ -121,6 +121,7 @@ nav{height:64px;display:flex;align-items:center;justify-content:space-between;ga
 .tool-grid li{padding:28px 24px 32px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;flex-direction:column;justify-content:space-between;gap:40px;min-height:180px}
 .tool-name{font-size:24px;font-weight:500;line-height:1.2;letter-spacing:-.01em}
 .tool-row{display:flex;align-items:center;gap:14px}
+.tool-stack{display:flex;flex-direction:column;gap:16px}
 .tool-row img{width:40px;height:40px;flex:none;display:block}
 .tool-dark{display:none!important}
 [data-theme="dark"] .tool-light{display:none!important}
@@ -257,9 +258,8 @@ footer a{color:var(--muted)}
     <div class="wrap">
       <h2 id="tools-title" class="title serif">Tools I <em>specialize in</em></h2>
       <ul class="tool-grid">
-        <li><span class="label">Photo editing</span><span class="tool-row"><img src="images/tools/lrc.png" width="40" height="40" alt="" loading="lazy"><span class="tool-name">Lightroom Classic</span></span></li>
+        <li><span class="label">Raw processing</span><span class="tool-stack"><span class="tool-row"><img src="images/tools/lrc.png" width="40" height="40" alt="" loading="lazy"><span class="tool-name">Lightroom Classic</span></span><span class="tool-row"><img src="images/tools/captureone.png" width="40" height="40" alt="" loading="lazy" class="tool-light"><img src="images/tools/captureone-dark.png" width="40" height="40" alt="" loading="lazy" class="tool-dark"><span class="tool-name">Capture One</span></span></span></li>
         <li><span class="label">Retouching</span><span class="tool-row"><img src="images/tools/ps.png" width="40" height="40" alt="" loading="lazy"><span class="tool-name">Photoshop</span></span></li>
-        <li><span class="label">Raw processing</span><span class="tool-row"><img src="images/tools/captureone.png" width="40" height="40" alt="" loading="lazy" class="tool-light"><img src="images/tools/captureone-dark.png" width="40" height="40" alt="" loading="lazy" class="tool-dark"><span class="tool-name">Capture One</span></span></li>
         <li><span class="label">Video edit &amp; color</span><span class="tool-row"><img src="images/tools/resolve.png" width="40" height="40" alt="" loading="lazy"><span class="tool-name">DaVinci Resolve</span></span></li>
       </ul>
     </div>
